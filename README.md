@@ -11,14 +11,15 @@ Full screen for react native android
 
 ```sh
 <resources xmlns:tools="http://schemas.android.com/tools">
+ <!-- Add this tool also. -->
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="android:textColor">#000000</item>
-       + <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+         <!-- Add this line for notched devices. -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item> 
     </style>
-
 </resources>
 
 ```
@@ -31,7 +32,7 @@ import ReactNativeFullscreen from 'react-native-fullscreen-chz';
 const App = () => {
 
   ReactNativeFullscreen.enable()
-  //ReactNativeFullscreen.disable()
+  //ReactNativeFullscreen.disable() // To disable
 
   return (
     <View>
