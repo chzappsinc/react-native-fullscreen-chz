@@ -31,7 +31,7 @@ This will help notched devices
 
 # Full Example
 
-```sh
+```js
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:textColor">#000000</item>
