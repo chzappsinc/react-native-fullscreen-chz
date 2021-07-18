@@ -3,10 +3,7 @@ Full screen for react native android
 
 ## Install 
 
-```
-yarn add react-native-fullscreen-chz
-
-```
+`yarn add react-native-fullscreen-chz`
 
 ## Usage
 
@@ -19,7 +16,7 @@ yarn add react-native-fullscreen-chz
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="android:textColor">#000000</item>
-        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+       + <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
     </style>
 
 </resources>
