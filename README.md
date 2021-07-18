@@ -1,4 +1,5 @@
-# react-native-fullscreen-chz
+# react-native-fullscreen-chz ANDROID
+
 Full screen for react native android 
 
 ## Install 
