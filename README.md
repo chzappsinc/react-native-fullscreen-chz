@@ -1,4 +1,4 @@
-# react-native-fullscreen-chz ANDROID
+# REACT NATIVE FULL SCREEN ANDROID
 
 Full screen for react native android 
 
