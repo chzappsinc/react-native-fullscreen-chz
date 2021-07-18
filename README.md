@@ -8,7 +8,13 @@ Full screen for react native android
 
 ## Usage
 
-**Goto android/app/res/values/styles.xml**
+**Goto android/app/res/values/styles.xml** 
+
+Now add `<resources xmlns:tools="http://schemas.android.com/tools">`
+
+Now add ` <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item> `
+
+### Full Example
 
 ```sh
 <resources xmlns:tools="http://schemas.android.com/tools">
