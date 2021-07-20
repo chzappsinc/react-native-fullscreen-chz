@@ -4,7 +4,7 @@ Full screen for react native android
 
 ## Install 
 
-```
+```sh
 yarn add react-native-fullscreen-chz
 
 yarn react-native link react-native-fullscreen-chz 
