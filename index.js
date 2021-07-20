@@ -1,23 +1,23 @@
-import { NativeModules } from 'react-native';
-
-const { ReactNativeFullscreen } = NativeModules;
-
 /**
- * @param enable
- * @param disable
+ * FullScreen
  * 
- * To enable full screen then 
+ * FullScreen.enable() => FullScreen Android
  * 
- * ReactNativeFullscreen.enable()
- * 
- * To disable full screen 
- * 
- * ReactNativeFullscreen.disable()
- * 
- * if you use  StatusBar then hide it!
- * 
- * **/
-export default ReactNativeFullscreen;
+ * FullScreen.disable() => FullScreen Disable Android
+ */
+'use strict';
+
+import { NativeModules, Platform, StatusBar } from 'react-native';
+/**
+ * For android!
+ * */
+const enable = () => {
+    StatusBar.setHidden(true)
+    StatusBar.setTranslucent(true)
+    //Also call native module below
+}
+
+export default Platform.OS === 'android' && NativeModules.ReactNativeFullscreen;
 
 
 /**
