@@ -25,7 +25,12 @@ TO
 
 ```
 
-Now add ` <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item> `
+Now add this in styles.xml _This will notched devices_
+
+```
+<item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+
+```
 
 This will help notched devices
 
