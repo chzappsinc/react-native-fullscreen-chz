@@ -13,6 +13,8 @@ yarn react-native link react-native-fullscreen-chz
 
 ## Usage
 
+### Important steps
+
 **Goto android/app/res/values/styles.xml** 
 
 
@@ -34,6 +36,16 @@ Now add this in styles.xml _This will notched devices_
 
 This will help notched devices
 
+Js
+
+```
+import FullScreenAndroid from 'react-native-fullscreen-chz';
+
+  FullScreenAndroid.enable()
+  FullScreenAndroid.disable() // To disable
+  
+```
+
 # Full Example
 
 ```js
@@ -51,12 +63,12 @@ This will help notched devices
 ```js
 import React from 'react'
 import { View } from 'react-native'
-import ReactNativeFullscreen from 'react-native-fullscreen-chz';
+import FullScreenAndroid from 'react-native-fullscreen-chz';
 
 const App = () => {
 
-  ReactNativeFullscreen.enable()
-  //ReactNativeFullscreen.disable() // To disable
+  FullScreenAndroid.enable()
+  //FullScreenAndroid.disable() // To disable
 
   return (
     <View>
