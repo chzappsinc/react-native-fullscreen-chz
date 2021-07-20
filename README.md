@@ -18,7 +18,7 @@ yarn react-native link react-native-fullscreen-chz
 **Goto android/app/res/values/styles.xml** 
 
 
-```js
+```xml
 <resources>
 
 TO
@@ -29,7 +29,7 @@ TO
 
 Now add this in styles.xml _This will notched devices_
 
-```
+```xml
 <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
 
 ```
@@ -38,7 +38,7 @@ This will help notched devices
 
 Js
 
-```
+```js
 import FullScreenAndroid from 'react-native-fullscreen-chz';
 
   FullScreenAndroid.enable()
