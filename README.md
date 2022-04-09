@@ -2,6 +2,8 @@
 
 Full screen for react native android 
 
+*Removed enableWithoutStatusBar() enableWithStatusBar() isAndroid() from version 2.0*
+
 ## Install 
 
 ```sh
