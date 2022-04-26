@@ -1,6 +1,8 @@
 # REACT NATIVE FULL SCREEN ANDROID
 
-Full screen for react native android 
+Fullscreen for react native android
+
+**Fixed all bugs for react-native 0.66+**
 
 *Removed enableWithoutStatusBar() enableWithStatusBar() isAndroid() from version 2.0*
 
