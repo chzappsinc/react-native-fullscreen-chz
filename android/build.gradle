@@ -1,0 +1,35 @@
+/**
+ * 
+ 
+▒█▀▀█ ▒█░▒█ ▒█▀▀▀█ ░█▀▀█ ▒█▀▀█ ▒█▀▀█ ▒█▀▀▀█ 
+▒█░░░ ▒█▀▀█ ░▄▄▄▀▀ ▒█▄▄█ ▒█▄▄█ ▒█▄▄█ ░▀▀▀▄▄ 
+▒█▄▄█ ▒█░▒█ ▒█▄▄▄█ ▒█░▒█ ▒█░░░ ▒█░░░ ▒█▄▄▄█
+
+COPYRIGHT CHZAPPS
+LAST UPDATE APRIL 27 2022 12:26 AM IST
+ * 
+ * */ 
+
+apply plugin: 'com.android.library'
+repositories {
+    mavenCentral()
+}
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+android {
+    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+
+
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', 16)
+        targetSdkVersion safeExtGet('targetSdkVersion', 28)
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+}
