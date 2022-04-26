@@ -11,7 +11,7 @@ enableWithStatusBar()
 isAndroid() 
 from version 3.0
 ```
-*Still you want to use it then install yarn add react-native-fullscreen-chz@2.0.12-rcr*
+*Still you want to use it then install then _yarn add react-native-fullscreen-chz@2.0.12-rcr_*
 
 ## Install 
 
