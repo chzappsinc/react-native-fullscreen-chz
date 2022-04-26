@@ -1,17 +1,17 @@
 # REACT NATIVE FULL SCREEN ANDROID
 
-Fullscreen for react native android
+## Fullscreen for react native android
 
-**Fixed all bugs for react-native 0.66+**
+### Fixed all bugs for react-native 0.66+ Enjoy
 
-**Removed**
+### Removed
 ```
 enableWithoutStatusBar()
 enableWithStatusBar()
 isAndroid() 
 from version 3.0
 ```
-*Still you want to use it then install * ```yarn add react-native-fullscreen-chz@2.0.12-rcr```
+*Still you want to use it then install* ```yarn add react-native-fullscreen-chz@2.0.12-rcr```
 
 ## Install 
 
