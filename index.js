@@ -18,10 +18,6 @@ const enable = () => {
   //Also call native module below
 };
 
-const moduleName = async () => {
-  return "react-native-fullscreen-chz";
-};
-
 export default Platform.select({
   android: NativeModules.ReactNativeFullscreenChz,
   ios: null, //Coming on next Update
