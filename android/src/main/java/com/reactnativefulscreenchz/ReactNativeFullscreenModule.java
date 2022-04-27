@@ -54,46 +54,7 @@ public class ReactNativeFullscreenModule extends ReactContextBaseJavaModule {
         );
 
     }
-
-    @ReactMethod
-    public void enableWithoutStatusBar() {
-        UiThreadUtil.runOnUiThread(
-                new Runnable() {
-                    @SuppressLint("ObsoleteSdkInt")
-                    @Override
-                    public void run() {
-                        if (Build.VERSION.SDK_INT < 16) {
-                            Objects.requireNonNull(getCurrentActivity()).getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                                    WindowManager.LayoutParams.FLAG_FULLSCREEN);
-                        }
-                    }
-                }
-        );
-
-    }
-
-    @ReactMethod
-    public void enableWithStatusBar() {
-        UiThreadUtil.runOnUiThread(
-                new Runnable() {
-                    @SuppressLint("ObsoleteSdkInt")
-                    @Override
-                    public void run() {
-                        if (Build.VERSION.SDK_INT < 16) {
-                            Objects.requireNonNull(getCurrentActivity()).getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-                        }
-                    }
-                }
-        );
-
-    }
-
-    @ReactMethod
-    public String isAndroid() {
-        return "Yes Its Android";
-    }
-
-
+    
     ReactNativeFullscreenModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }

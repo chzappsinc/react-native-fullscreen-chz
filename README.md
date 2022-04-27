@@ -1,16 +1,20 @@
-# REACT NATIVE FULL SCREEN ANDROID
+# REACT NATIVE FULL-SCREEN ANDROID
 
 ## Fullscreen for react native android
 
 ### Fixed all bugs for react-native 0.66+ Enjoy
 
+### IOS coming soon on next Update
+
 ### Removed
-```
+
+```js
 enableWithoutStatusBar()
 enableWithStatusBar()
 isAndroid() 
 from version 3.0
 ```
+
 *Still you want to use it then install* ```yarn add react-native-fullscreen-chz@2.0.12-rcr```
 
 ## Install 
@@ -56,10 +60,10 @@ This will help notched devices
 Js
 
 ```js
-import FullScreenAndroid from 'react-native-fullscreen-chz';
+import FullScreenChz from 'react-native-fullscreen-chz';
 
-  FullScreenAndroid.enable()
-  FullScreenAndroid.disable() // To disable
+  FullScreenChz.enable()
+  FullScreenChz.disable() // To disable
   
 ```
 
@@ -80,12 +84,12 @@ import FullScreenAndroid from 'react-native-fullscreen-chz';
 ```js
 import React from 'react'
 import { View } from 'react-native'
-import FullScreenAndroid from 'react-native-fullscreen-chz';
+import FullScreenChz from 'react-native-fullscreen-chz';
 
 const App = () => {
 
-  FullScreenAndroid.enable()
-  //FullScreenAndroid.disable() // To disable
+  FullScreenChz.enable()
+  // FullScreenChz.disable() // To disable
 
   return (
     <View>
