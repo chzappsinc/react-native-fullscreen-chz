@@ -17,7 +17,7 @@ public class ReactNativeFullscreenModule extends ReactContextBaseJavaModule {
     @NonNull
     @Override
     public String getName() {
-        return "ReactNativeFullscreen";
+        return "ReactNativeFullscreenChz";
     }
 
     @ReactMethod
