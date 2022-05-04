@@ -6,7 +6,7 @@
 ▒█▄▄█ ▒█░▒█ ▒█▄▄▄█ ▒█░▒█ ▒█░░░ ▒█░░░ ▒█▄▄▄█
 
 COPYRIGHT CHZAPPS
-LAST UPDATE APRIL 27 2022 12:26 AM IST
+LAST UPDATE APRIL 29 2022 12:26 AM IST
  * 
  * */ 
 
@@ -25,8 +25,8 @@ android {
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 16)
         targetSdkVersion safeExtGet('targetSdkVersion', 28)
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "3.1.10"
     }
 }
 

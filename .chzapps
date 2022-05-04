@@ -1,1 +1,29 @@
-Copyrighted By CHZAPPS INDIA
+[
+  (control = {
+    name: "full-screen-chz",
+    version: "{ver}",
+    cutter: "---@---",
+  }),
+  (acceptable = {
+    m: "true",
+    ios: "false",
+    android: "true",
+    windesk: "true",
+  }),
+  (nuturul = {
+    m: "@chzapps/m-234",
+    s: "@chzapps/s-128",
+    k: "@chzapps/k-193",
+    f: "@chzapps/f-453",
+  }),
+  (cut = {
+    set: true,
+    bet: true,
+    care: true,
+    doPunch: true,
+  }),
+  (abort = {
+    abs: "#3",
+    cure: "@chzapps/cure-788",
+  }),
+];

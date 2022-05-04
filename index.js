@@ -15,16 +15,17 @@ import { NativeModules, Platform, StatusBar } from "react-native";
 const enable = () => {
   StatusBar.setHidden(true);
   StatusBar.setTranslucent(true);
-  //Also call native module below
 };
 
 const moduleName = async () => {
-  return "react-native-fullscreen-chz";
+  if (__DEV__) {
+    return "react-native-fullscreen-chz";
+  }
 };
 
 export default Platform.select({
   android: NativeModules.ReactNativeFullscreenChz,
-  ios: null, //Coming on next Update
+  ios: null,
   windows: null,
 });
 

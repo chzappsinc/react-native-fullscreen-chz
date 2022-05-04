@@ -12,6 +12,7 @@ declare module "react-native-fullscreen-chz" {
 
     /**
      * Get Module Name
+     * This is for testing purpose and no need to call
      */
     static moduleName(): void;
   }
