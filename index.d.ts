@@ -2,6 +2,7 @@ declare module "react-native-fullscreen-chz" {
   export default class FullScreenChz {
     /**
      * @see https://github.com/chzappsinc/react-native-fullscreen-chz/tree/main/example#enable
+     * 
      * Enable FullScreen in Android
      * Hide Both StatusBar and NavigationBar
      *

@@ -59,20 +59,24 @@ import FullScreenChz from 'react-native-fullscreen-chz';
 ```
 
 ```js
-import React from 'react'
-import { View } from 'react-native'
+import React from 'react';
+import {Button, View} from 'react-native';
 import FullScreenChz from 'react-native-fullscreen-chz';
 
 const App = () => {
-
-  FullScreenChz.enable()
-  // FullScreenChz.disable() // To disable
-
   return (
-    <View>
-
+    <View style={{justifyContent: 'center', flex: 1}}>
+      <Button
+        title="Foo"
+        onPress={() => {
+          FullScreenChz.enable();
+         //FullScreenChz.disable(); to Disable full screen view
+        }}
+      />
     </View>
-  )
+  );
+};
+export default App;
 }
 
 export default App;
