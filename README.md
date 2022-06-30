@@ -1,6 +1,6 @@
 # REACT NATIVE FULL-SCREEN ANDROID
 
-## Fullscreen for react native android
+## Fullscreen for react native android Simple
 
 ### Fixed all bugs for react-native 0.66+ Enjoy
 
