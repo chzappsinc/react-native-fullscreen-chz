@@ -1,34 +1,17 @@
 # REACT NATIVE FULL-SCREEN ANDROID
 
-## Fullscreen for react native android
+## Fullscreen for react native android Simple
 
 ### Fixed all bugs for react-native 0.66+ Enjoy
-
-### IOS coming soon on next Update
-
-### Removed
-
-```js
-enableWithoutStatusBar()
-enableWithStatusBar()
-isAndroid() 
-from version 3.0
-```
-
-*Still you want to use it then install* ```yarn add react-native-fullscreen-chz@2.0.12-rcr```
 
 ## Install 
 
 ```sh
 yarn add react-native-fullscreen-chz
 
-yarn react-native link react-native-fullscreen-chz 
-
 OR
 
 npm install react-native-fullscreen-chz --save
-
-npx react-native link react-native-fullscreen-chz 
 
 ```
 
@@ -39,23 +22,19 @@ npx react-native link react-native-fullscreen-chz
 **Goto android/app/res/values/styles.xml** 
 
 
-```xml
-<resources>
+```diff
+- <resources>
 
-TO
-
-<resources xmlns:tools="http://schemas.android.com/tools">
-
++ <resources xmlns:tools="http://schemas.android.com/tools">
 ```
 
 Now add this in styles.xml _This will help notched devices_
 
-```xml
-<item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
-
+```diff
++ <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
 ```
 
-This will help notched devices
+This will help notched devices and help them to show in full screens
 
 Js
 
@@ -73,7 +52,6 @@ import FullScreenChz from 'react-native-fullscreen-chz';
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:textColor">#000000</item>
-
          <!-- Add this line for notched devices. -->
         <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item> 
     </style>
@@ -99,5 +77,4 @@ const App = () => {
 }
 
 export default App;
-
 ```
