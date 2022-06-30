@@ -1,10 +1,10 @@
 # REACT NATIVE FULL-SCREEN ANDROID
 
-## Fullscreen for react native android Simple
+## Fullscreen for react-native android Simple
 
 ### Fixed all bugs for react-native 0.66+ Enjoy
 
-## Install 
+## Install
 
 ```sh
 yarn add react-native-fullscreen-chz
@@ -19,8 +19,7 @@ npm install react-native-fullscreen-chz --save
 
 ### Important steps
 
-**Goto android/app/res/values/styles.xml** 
-
+#### Goto android / app / res / values / styles.xml
 
 ```diff
 - <resources>
@@ -34,7 +33,7 @@ Now add this in styles.xml _This will help notched devices_
 + <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
 ```
 
-This will help notched devices and help them to show in full screens
+This will help notched devices and help them to show on full screens
 
 Js
 
@@ -46,7 +45,7 @@ import FullScreenChz from 'react-native-fullscreen-chz';
   
 ```
 
-# Full Example
+## Full Example
 
 ```js
 <resources xmlns:tools="http://schemas.android.com/tools">
