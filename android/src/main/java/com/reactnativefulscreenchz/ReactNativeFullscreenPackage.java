@@ -1,6 +1,6 @@
 // ReactNativeFullscreenPackage.java
 
-package com.reactnativefulscreenchz;
+package com.reactnativefullscreenchz;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

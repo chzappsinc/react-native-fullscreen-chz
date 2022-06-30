@@ -1,4 +1,4 @@
- package com.reactnativefulscreenchz;
+ package com.reactnativefullscreenchz;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
