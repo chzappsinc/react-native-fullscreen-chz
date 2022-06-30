@@ -23,12 +23,8 @@ npm install react-native-fullscreen-chz --save
 
 
 ```xml
- + <resources>
-
-TO
-
-<resources xmlns:tools="http://schemas.android.com/tools">
-
+- <resources>
++ <resources xmlns:tools="http://schemas.android.com/tools">
 ```
 
 Now add this in styles.xml _This will help notched devices_
