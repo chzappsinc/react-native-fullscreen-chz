@@ -22,7 +22,7 @@ npm install react-native-fullscreen-chz --save
 **Goto android/app/res/values/styles.xml** 
 
 
-```xml
+```diff
 - <resources>
 + <resources xmlns:tools="http://schemas.android.com/tools">
 ```
