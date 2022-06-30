@@ -9,6 +9,9 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.UiThreadUtil;
+import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.Promise;
+import android.content.pm.PackageManager;
 
 import java.util.Objects;
 
@@ -20,6 +23,7 @@ public class ReactNativeFullscreenModule extends ReactContextBaseJavaModule {
         return "ReactNativeFullscreenChz";
     }
 
+     
     @ReactMethod
     public void enable() {
         UiThreadUtil.runOnUiThread(

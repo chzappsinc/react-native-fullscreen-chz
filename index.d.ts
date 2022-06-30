@@ -11,10 +11,9 @@ declare module "react-native-fullscreen-chz" {
     static disable(): void;
 
     /**
-     * Get Module Name
-     * This is for testing purpose and no need to call
+     * Open app with package id
      */
-    static moduleName(): void;
+    static openApplication(): void;
   }
 }
 

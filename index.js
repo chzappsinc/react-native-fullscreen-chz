@@ -23,6 +23,10 @@ const moduleName = async () => {
   }
 };
 
+const openApplication = (packageName) => {
+  return NativeModules.ReactNativeFullscreenChz.openApplication(packageName);
+};
+
 export default Platform.select({
   android: NativeModules.ReactNativeFullscreenChz,
   ios: null,
