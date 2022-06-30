@@ -24,17 +24,17 @@ npm install react-native-fullscreen-chz --save
 
 ```diff
 - <resources>
+
 + <resources xmlns:tools="http://schemas.android.com/tools">
 ```
 
 Now add this in styles.xml _This will help notched devices_
 
-```xml
-<item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
-
+```diff
++ <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
 ```
 
-This will help notched devices
+This will help notched devices and help them to show in full screens
 
 Js
 
@@ -52,7 +52,6 @@ import FullScreenChz from 'react-native-fullscreen-chz';
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:textColor">#000000</item>
-
          <!-- Add this line for notched devices. -->
         <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item> 
     </style>
@@ -78,5 +77,4 @@ const App = () => {
 }
 
 export default App;
-
 ```
