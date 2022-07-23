@@ -58,7 +58,7 @@ import FullScreenChz from 'react-native-fullscreen-chz';
 
 ## Full Example
 
-```diff
+```xml
  <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:textColor">#000000</item>
