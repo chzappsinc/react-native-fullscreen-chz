@@ -30,7 +30,7 @@ npm install react-native-fullscreen-chz --save
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:textColor">#000000</item>
          <!-- Add this line for notched devices. -->
-       + <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item> 
++ <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item> 
     </style>
 </resources>
 
@@ -86,8 +86,4 @@ const App = () => {
   );
 };
 export default App;
-}
-
-export default App;
-
 ```
