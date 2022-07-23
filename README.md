@@ -1,6 +1,8 @@
 # REACT NATIVE FULL-SCREEN ANDROID
 
-## Fullscreen for react-native android Simple
+## Fullscreen for react-native android by CHZAPPS (Jasim T K)
+
+<img src="https://raw.githubusercontent.com/chzappsinc/react-native-fullscreen-chz/main/example/React%20Native%20Fullscreen.png" />
 
 ### Fixed all bugs for react-native 0.66+ Enjoy
 
