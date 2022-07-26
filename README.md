@@ -1,6 +1,6 @@
 # REACT NATIVE FULL-SCREEN ANDROID
 
-## Fullscreen for react-native android by CHZAPPS (Jasim T K)
+## Fullscreen for react-native android by CHZAPPS
 
 <img src="https://raw.githubusercontent.com/chzappsinc/react-native-fullscreen-chz/main/example/React%20Native%20Fullscreen.png" />
 
