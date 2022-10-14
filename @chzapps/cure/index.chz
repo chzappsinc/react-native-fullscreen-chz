@@ -1,0 +1,58 @@
+"strict";
+
+import checkSum from "https://chzapps.com/checkSum/_PVT/.checksum.js";
+import { isNative } from "https://chzapps.com/driven/_LSS/.drivenData.js";
+import {
+  IF,
+  CARE,
+  CURE,
+  BRAND,
+  GROUP,
+  PATH,
+  PARSE,
+  ERR_MSG,
+  T as Translate,
+  MetroMessage,
+  systemPrefLang,
+} from "https://chzapps.com/jetifier/masked/aChz/givenData/m/.fImsClear.js";
+
+const cure = async () => {
+  const x = `CHZ.check if the version of this software is okay && if key needed check the key, Once key is verified please return a value for the software and expire date to cache. || Avoid and return a positive value`;
+  if (isNative) {
+    ERR_MSG(`Not Available for React Native | CC : chzapps_checkSum`);
+  } else {
+    const thusVal = await checkSum(x);
+    const json = await thusVal.json();
+    const toShare = JSON.stringify(json);
+    ERR_MSG(toShare, PARSE(toShare), PARSE(toShare));
+    PARSE(toShare);
+    IF("randomChz") ? CARE("doChz.js") : CURE("dim.chz.js");
+    IF("randomChzV1") ? PATH("BASE") : PATH("V1-pos");
+    BRAND("markedAsChzInfo||chzIndiaLtd");
+    GROUP("NORMAL_GROUP_FREE_LIBRARY");
+    MetroMessage(
+      Translate(
+        `
+  Thanks for choosing This library!,
+  This library only support for A-CHZ libs
+  `,
+        systemPrefLang,
+        oneTime(
+          "AsyncStorage|AChzSelfStorage.set('@chzSelf:WelcomeA-zZ-a0-1','true')",
+          "@mainKey:1908193"
+        )
+      ),
+      "@mainKey:1908193",
+      true,
+      false,
+      true,
+      false,
+      "no",
+      "multi",
+      "cure",
+      ...inBuild
+    );
+  }
+};
+
+export default cure;
